@@ -1,37 +1,52 @@
-header {
-  width: 100%;
-  background-color: #B2A797;
-  justify-content: center; }
-  header .header-nav {
-    width: 100%;
-    background-color: #314E5A; }
-    header .header-nav ul {
-      display: flex;
+body{
+display: flex;
+flex-direction: column;
+text-align: center;
+width: 100%;
+background-color: #B2A797;
+justify-content: center;}
+    header .header-nav{
+      width: 100%;
       list-style: none;
       justify-content: space-between;
-      padding: 8px; }
-      header .header-nav ul .ul-secundario {
+      text-decoration: none; 
+      color: black;}
+      header .header-nav ul{
+        text-decoration: none;
         display: flex;
-        list-style: none;
+        padding: 50px;
         justify-content: space-between;
-        padding: 8px; }
-        header .header-nav ul .ul-secundario li {
-          text-align: center;
+        list-style-type: none;
+        background-color: #314e5a;
+        color:black;}
+        header .ul-secundario{
+          display: flex;
+          flex-direction: row;
           text-decoration: none;
-          background-color: #B2A797;
-          list-style: none; }
+          font-size: 1.8rem;
+          list-style: none;
+          width:auto;
+          color: black;
+          justify-content: space-between;
+          padding: 8px; }
+
 
 main section {
   display: flex;
   text-align: center;
   flex-direction: row;
-  box-shadow: 3px 3px 5px;
+  box-shadow: 8px 8px 12px;
   padding: 100px;
   margin: 100px;
   justify-content: space-between; }
 
 * {
-  margin: 20;
-  padding: 20;
+  margin: 10;
+  padding: 10;
   box-sizing: border-box;
   background-color: #B2A797; }
+
+
+
+
+  /* Activé el "Text decoration: none" pero sigue sin sacarme los hipervínculos, así como también el resaltado azul que no me toma el "color: black"./*
