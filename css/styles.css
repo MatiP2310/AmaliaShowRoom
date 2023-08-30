@@ -8,7 +8,22 @@ li{
   box-sizing: border-box;
 }
 
-.ul-secundario ul{
+
+.header-nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+  margin: 20px;
+  list-style: none;
+  text-decoration: none;
+  gap: 20px;
+  align-items: center;
+}
+
+.ul-secundario {
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
   padding: 50px;
   margin: 20px;
@@ -118,6 +133,7 @@ justify-content: space-between;
   justify-content: center;
   margin: 10px;
   border: 8px solid grey
+
 }
 
 @media (max-width:960px){
